@@ -1,0 +1,137 @@
+:root {
+    --primary-color: #2E7D32;
+    --secondary-color: #81C784;
+    --bg-color: #F1F8E9;
+    --text-color: #333333;
+    --card-bg: #FFFFFF;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    gap: 2rem;
+}
+
+.action-card, .stats-card {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.action-card h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+}
+
+#idea-display {
+    font-size: 1.25rem;
+    font-weight: 500;
+    min-height: 3rem;
+    margin: 1.5rem 0;
+    color: #555;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    margin: 0.5rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1B5E20;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#complete-btn {
+    background-color: #F57F17;
+}
+
+#complete-btn:hover {
+    background-color: #F9A825;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.impact-counter {
+    margin: 1.5rem 0;
+}
+
+#total-acts {
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    line-height: 1;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    background-color: var(--bg-color);
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 6px;
+    border-left: 4px solid var(--secondary-color);
+    font-size: 0.95rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    margin-top: auto;
+}
