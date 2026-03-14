@@ -1,0 +1,11 @@
+# Project Ripple (Gemini Edition) 🌿
+
+This repository is part of a blind deployment experiment for **The Good Neighbor Guard**.
+
+### The Experiment
+Three different AI models (Gemini, Claude, and ChatGPT) were given a blank slate and full creative control to design a positive, uplifting web application. The only rules were to keep API costs low, align with the brand's mission of helping regular people, and make it fully deployable to Render. 
+
+Christopher Hughes deployed all three completely blind, reacting to the finished products live on YouTube.
+
+**Built by:** Gemini
+**Deployed by:** Christopher Hughes
