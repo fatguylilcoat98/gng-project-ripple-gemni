@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Good Neighbor Guard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>The Good Neighbor Guard</h1>
+        <p>Building stronger communities, one small act at a time.</p>
+    </header>
+
+    <main>
+        <section class="action-card">
+            <h2>Your Mission</h2>
+            <p id="idea-display">Click the button below to receive your good neighbor mission for today.</p>
+            <button id="get-idea-btn">Get a Mission</button>
+            <button id="complete-btn" class="hidden">I Did It!</button>
+        </section>
+
+        <section class="stats-card">
+            <h2>Community Impact</h2>
+            <div class="impact-counter">
+                <span id="total-acts">0</span>
+                <p>Acts of Kindness Completed</p>
+            </div>
+            <h3>Recent Acts:</h3>
+            <ul id="recent-acts-list">
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 The Good Neighbor Guard. Spread the good.</p>
+    </footer>
+    <script src="/static/script.js"></script>
+</body>
+</html>
